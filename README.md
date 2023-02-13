@@ -33,5 +33,15 @@ Projeto realizado com o objetivo de clonar a tela de perfil do orkut e também c
             <a href="https://github.com/devkarine" alt="Linkedin"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="20"></a>
       </div>
     </td>
+
+  <td align="center">
+      <div>
+        <img src="https://avatars.githubusercontent.com/u/120384308?v=4" width="120px;" alt="Foto de Flavia no GitHub"/><br>
+          <b> Helena Siena </b><br>
+            <a href="https://www.linkedin.com/in/helena-siena-150428237/" alt="Linkedin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="20"></a>
+            <a href="https://github.com/HelenaSiena" alt="GitHub"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="20"></a>
+      </div>
+    </td>
+
   </tr>
 </table>

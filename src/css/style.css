@@ -5,10 +5,185 @@
 
 body {
   min-height: 100vh;
-  min-width: 1440px;
+  max-width: 1440px;
 }
 
 .container {
   margin: 0 auto;
   width: 100%;
 }
+
+.header {
+  background-color: var(--light);
+}
+
+.header .container {
+  height: 9.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.8rem;
+}
+
+.header .container .nav ul {
+  display: flex;
+  gap: 4rem;
+}
+
+.header .container .nav ul li a:hover {
+  color: var(--hover);
+  transition: 0.2s ease-in-out;
+}
+
+.header .container .pesquisar {
+  position: relative;
+}
+
+.header .container .pesquisar input {
+  background-color: var(--bg);
+  width: 35.5rem;
+  height: 4.39rem;
+  border-radius: 1rem;
+}
+
+.header .container .pesquisar input::placeholder {
+  display: flex;
+  align-items: center;
+  padding-left: 3.5rem;
+  color: var(--fs1);
+}
+
+.header .container .pesquisar input[type="text"]:focus {
+  color: var(--hover);
+  padding-left: 3rem;
+}
+
+.header .container .pesquisar input:focus-visible {
+  outline: 1px solid var(--hover);
+}
+
+.header .container .pesquisar i {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  padding: 0.9rem 0.8rem;
+  color: var(--fs01);
+  cursor: pointer;
+}
+
+.header .container .profile-header {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.header .container .profile-header img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 2rem;
+}
+
+.header .container .profile-header i {
+  color: var(--hover);
+}
+
+.main .container{
+  background-color: var(--bg);
+}
+
+
+
+
+
+
+/* .perfil .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.perfil .container .card-perfil{
+  width: 59.2rem;
+  height: 85.4rem;
+  background-color: var(--light);
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-top: 8rem;
+  padding: 2.4rem;
+  border-radius: 2rem;
+
+}
+
+.perfil .container .card-perfil .saudacao h2{
+  font-size: 2.6rem;
+  color: var(--fs2);
+  padding: 0 0 2.56rem 2.4rem;
+}
+
+.perfil .container .card-perfil .saudacao p{
+  width: 54.4rem;
+  height: 4rem;
+  background-color: var(--bg);
+  color: var(--fs2);
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  padding-left: 1.2rem;
+  border-radius: 1rem;
+
+}
+
+.perfil .container .card-perfil .wrapper-status {
+  display: flex;
+  gap: 3.4rem;
+  
+}
+
+.perfil .container .card-perfil .wrapper-status .status{
+  font-size: 1.6rem;
+  color: var(--fs2);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+
+}
+
+.perfil .container .card-perfil .wrapper-status .status .icons-status{
+  color: var(--icon01);
+}
+.perfil .container .card-perfil .wrapper-status .status .icons-status span{
+  color: var(--fs1);
+  padding-left: 0.3rem;
+}
+
+.perfil .container .card-perfil .wrapper-status .status .icons-status.azul{
+  color: var(--icon02);
+}
+
+.perfil .container .card-perfil .wrapper-status .status .icons-status.rosa{
+  color: var(--hover);
+}
+
+.perfil .container .card-perfil .info-perfil{
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.perfil .container .card-perfil .info-perfil li{
+  font-size: 1.6rem;
+  color: var(--fs1);
+}
+
+.perfil .container .card-perfil .info-perfil li span{
+  color: var(--fs2);
+} */
+
+
+
