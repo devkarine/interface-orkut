@@ -85,7 +85,7 @@ body {
   border-radius: 2rem;
 }
 
-.header .container .profile-header i {
+.header .container .profile-header i{
   color: var(--hover);
 }
 
@@ -98,7 +98,7 @@ body {
 
 
 
-/* .perfil .container{
+.perfil .container{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -183,7 +183,21 @@ body {
 
 .perfil .container .card-perfil .info-perfil li span{
   color: var(--fs2);
-} */
+}
+
+/*Vou deixar aqui o css feito por mim - Helena */
+
+.border-destaque-perfil {
+  border: 1px solid var(--hover);
+  border-radius: 3.8rem;
+  padding: 5px 16px;
+  gap: 10px;
+}
+/* .text-colored {
+  color: var(--text-colored);
+} 
+Mexer aqui, pois está dando conflito no span dentro de outras propriedades de classes aqui no css
+*/
 
 
 
