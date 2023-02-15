@@ -1,0 +1,38 @@
+/* @font-fac {
+    font-family: "sf-pro-display";
+    src: url(../fonts/sf-pro-display.ttf);
+} */
+
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+*{
+    list-style: none;
+    /* text-decoration: none; */
+}
+body{
+    font-family:'SF Pro Display', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    background-color: #d9e6f7;
+}
+
+#menu {
+    background-color: #fff;
+}
+
+.text-normal { 
+    color: black;
+}
+
+.img-card-body{
+    margin: 0 auto;
+}
+
+.card-img-overlay {
+    top: auto;
+}
+
+.color-checkbox { 
+    background-color: #ED2590;
+}
