@@ -89,13 +89,77 @@ body {
   color: var(--hover);
 }
 
-.main .container{
+.main{
   background-color: var(--bg);
+  display: flex;
+  gap: 3.2rem;
+  margin: 0 auto;
 }
 
+.profile .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+  gap: 3.2rem;
 
+}
 
+.profile .container .card-profile{
+  width: 28rem;
+  height: 32.4rem;
+  background-color: var(--light);
+  border-radius: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
 
+}
+
+.profile .container .card-profile .img-profile{
+  border-radius: 10rem;
+  width: 18.4rem;
+  height: 18.4rem;
+  border: 0.3rem solid var(--hover);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile .container .card-profile .img-profile img{
+  border-radius: 10rem;
+  width: 17rem;
+  height: 17em;
+}
+
+.profile .container .card-profile h2{
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: var(--fs2);
+}
+
+.profile .container .card-profile p{
+  font-size: 1.8rem;
+  color: var(--fs2);
+}
+
+.profile .container button{
+  width: 28rem;
+  height: 5.6rem;
+  border-radius: 1.6rem;
+  background-color: var(--light);
+  color: var(--hover);
+  font-size: 1.8rem;
+}
+
+.profile .container button:hover{
+  color: var(--fs1);
+  transition: 0.2s ease-in-out;
+  background-color: var(--hover);
+  cursor: pointer;
+}
 
 
 .perfil .container{
@@ -185,19 +249,34 @@ body {
   color: var(--fs2);
 }
 
-/*Vou deixar aqui o css feito por mim - Helena */
 
 .border-destaque-perfil {
-  border: 1px solid var(--hover);
+  border: 0.1rem solid var(--hover);
   border-radius: 3.8rem;
-  padding: 5px 16px;
-  gap: 10px;
+  padding: 0.5rem 1.6rem;
+  gap: 1rem;
 }
-/* .text-colored {
-  color: var(--text-colored);
-} 
-Mexer aqui, pois está dando conflito no span dentro de outras propriedades de classes aqui no css
-*/
+
+.friends-comunity .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+  flex-wrap: wrap;
+}
+
+.friends-comunity .container .card-friends-comunity{
+  width: 28rem;
+  height: 41.1rem;
+  border-radius: 1.6rem;
+  background-color: var(--light);
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
 
 
 
