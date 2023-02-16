@@ -263,7 +263,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 8rem;
-  flex-wrap: wrap;
+  
 }
 
 .friends-comunity .container .card-friends-comunity{
@@ -273,10 +273,49 @@ body {
   background-color: var(--light);
   display: flex;
   flex-direction: column;
+  gap: 5rem;
+  padding: 2.4rem;
   
 }
 
+.friends-comunity .container .card-friends-comunity h5{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--fs2);
+  
+}
+
+.friends-comunity .container .card-friends-comunity h5 span{
+  color: var(--hover);
+}
+
+.friends-comunity .container .card-friends-comunity .profile-friends-comunity ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.friends-comunity .container .card-friends-comunity .profile-friends-comunity ul li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
 
 
+}
 
+.friends-comunity .container .card-friends-comunity .profile-friends-comunity ul li img{
+  width: 5.6rem;
+  height: 5.6rem;
+}
+
+.friends-comunity .container .card-friends-comunity .profile-friends-comunity ul li p{
+  font-size: 1.4rem;
+  color: var(--fs2);
+}
 
