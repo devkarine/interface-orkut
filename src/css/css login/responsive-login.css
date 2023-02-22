@@ -8,6 +8,10 @@
         width: 70%;
         margin: 10px auto;
     }
+
+    .btn-entrar{
+        margin-bottom: 20px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) { 

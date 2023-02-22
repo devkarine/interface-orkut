@@ -1,7 +1,4 @@
-@font-face {
-  font-family: "sf-pro-display";
-  src: url(../fonts/sf-pro-display.ttf);
-}
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
 
 body {
   min-height: 100vh;
@@ -32,7 +29,6 @@ body {
 
 .header .container .nav ul li a:hover {
   color: var(--hover);
-  transition: 0.2s ease-in-out;
 }
 
 .header .container .pesquisar {
@@ -343,6 +339,5 @@ footer{
 footer a:hover{
   color: var(--hover);
   cursor: pointer;
-  transition: 0.2s ease-in-out;
   
 }
