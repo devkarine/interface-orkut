@@ -1,16 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/reset.css" />
-    <link rel="stylesheet" href="../css/variables.css" />
-    <link rel="stylesheet" href="../css/login.css" />
-    <link rel="stylesheet" href="../css/responsive.css" />
+
+    <link rel="stylesheet" href="/src/css/css login/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/css/css login/style-login.css">
+    <link rel="stylesheet" href="/src/css/css login/responsive-login.css">
     <title>Login - Orkut</title>
   </head>
-  <body>
-    
+  <body id="bg-orkut">
+    <header id="menu" class="bg-white">
+      <div class="container">
+        <nav class="navbar">
+          <img class="navbar-brand " src="/src/images/logo-orkut.svg" alt="logo orkut">
+          <ul class="nav d-md-flex justify-content-end text-center mt-2 mb-2">
+            <li class="nav-item">
+              <a class="nav-link link-dark" href="#">Sobre o Orkut</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-dark" href="#">Centro de sagurança</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="card-1">
+        <div class="container mt-5" >
+          <div class="row">
+            <div class="col-md-6  mt-md-5 ms-md-5 me-0 ms-1">
+              <div class="card text-white">
+                <img class="card-img" src="/src/images/photo-tela-login.svg" alt="foto com pessoas conversando em uma mesa">
+                <div class="card-img-overlay">
+                  <p class="card-text fs-5">
+                    Conecta-se aos seus amigos e familiares usando recados e mensagens instantâneas
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mt-5 me-md-4">
+              <div class="card bg-white rounded-4">
+                <img class="card-img-top mt-2 mb-" src="/src/images/title-card-2.svg" alt="título Acesse o Orkut" height="77px">
+                <form>
+                  <div class="m-md-4">
+                    <input type="email" class="form-control rounded-3 bg-light" placeholder="E-mail">
+                    <input type="password" class="form-control rounded-3 bg-light mt-3" placeholder="Senha">
+                  </div>
+                  <div class="m-4 form-check">
+                    <input type="checkbox" class="form-check-input color-checkbox" >
+                    <label class="form-check-label text-secondary" for="checkbox-label">Lembrar minha senha</label>
+                  </div>
+                </form>
+                <div class="d-md-grid gap-4 col-10 mx-auto">
+                  <a href="/index.html">
+                    <button class="btn btn-entrar w-100 " type="button">
+                      Entrar na conta
+                    </button>
+                  </a>
+                  <a href="#">
+                    <button class="btn btn-criar-conta mb- w-100" type="button">
+                      Criar conta
+                    </button>
+                  </a>
+                </div>
+                <div class="d-grid mx-auto">
+                  <a class="text-colored pt-2 mb-4" href="#">
+                    Esqueci minha senha
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container-fluid mt-5">
+        <div class="row bg-white">
+          <div class="d-flex justify-content-center">
+            <span class="mb-3 pt-4 text-colored text-center">
+              &copy; Todos os direitos reservados
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/src/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

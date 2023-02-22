@@ -1,0 +1,15 @@
+
+@media (max-width: 767px) { 
+    .navbar { 
+        display: flex;
+        justify-content: center;
+    }
+    .form-control { 
+        width: 70%;
+        margin: 10px auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+    
+}
