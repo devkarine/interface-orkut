@@ -1,0 +1,49 @@
+@media (max-width: 1024px) {
+  .header .container .nav {
+    display: none;
+  }
+
+  .profile .container .card-profile {
+    width: 32rem;
+  }
+
+  .friends-comunity .container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header .container {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem;
+    gap: 2rem;
+  }
+
+  .perfil .container .card-perfil {
+    width: 32rem;
+    height: 82rem;
+  }
+
+  .border-destaque-perfil.none {
+    display: none;
+  }
+
+  .perfil .container .card-perfil .saudacao p {
+    width: 27.2rem;
+  }
+
+  .perfil .container .card-perfil .wrapper-status {
+    gap: 1rem;
+  }
+
+  .friends-comunity .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .friends-comunity .container .card-friends-comunity {
+    width: 32rem;
+  }
+}

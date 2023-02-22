@@ -5,11 +5,11 @@
 
 body {
   min-height: 100vh;
-  max-width: 1440px;
+  max-width: 1950px;
+  margin: 0 auto;
 }
 
 .container {
-  margin: 0 auto;
   width: 100%;
 }
 
@@ -85,119 +85,264 @@ body {
   border-radius: 2rem;
 }
 
-.header .container .profile-header i{
+.header .container .profile-header i {
   color: var(--hover);
 }
 
-.main .container{
+.main {
   background-color: var(--bg);
+  display: flex;
+  gap: 3.2rem;
+  padding: 8rem 0 5.4rem 0;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
+.profile .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+}
 
+.profile .container .card-profile {
+  width: 28rem;
+  height: 32.4rem;
+  background-color: var(--light);
+  border-radius: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
 
+.profile .container .card-profile .img-profile {
+  border-radius: 10rem;
+  width: 18.4rem;
+  height: 18.4rem;
+  border: 0.3rem solid var(--hover);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.profile .container .card-profile .img-profile img {
+  border-radius: 10rem;
+  width: 17rem;
+  height: 17em;
+}
 
+.profile .container .card-profile h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: var(--fs2);
+}
 
-.perfil .container{
+.profile .container .card-profile p {
+  font-size: 1.8rem;
+  color: var(--fs2);
+}
+
+.profile .container button {
+  width: 28rem;
+  height: 5.6rem;
+  border-radius: 1.6rem;
+  background-color: var(--light);
+  color: var(--hover);
+  font-size: 1.8rem;
+}
+
+.profile .container button:hover {
+  color: var(--fs1);
+  transition: 0.2s ease-in-out;
+  background-color: var(--hover);
+  cursor: pointer;
+}
+
+.perfil .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 
-.perfil .container .card-perfil{
+.perfil .container .card-perfil {
   width: 59.2rem;
   height: 85.4rem;
   background-color: var(--light);
   display: flex;
   flex-direction: column;
+
   gap: 2.5rem;
-  margin-top: 8rem;
   padding: 2.4rem;
   border-radius: 2rem;
-
 }
 
-.perfil .container .card-perfil .saudacao h2{
-  font-size: 2.6rem;
+.perfil .container .card-perfil .saudacao h2 {
+  font-size: clamp(2rem, 4vw, 2.6rem);
   color: var(--fs2);
-  padding: 0 0 2.56rem 2.4rem;
+  padding-bottom: 3.4rem;
 }
 
-.perfil .container .card-perfil .saudacao p{
+.perfil .container .card-perfil .saudacao p {
   width: 54.4rem;
   height: 4rem;
   background-color: var(--bg);
   color: var(--fs2);
   display: flex;
   align-items: center;
-  font-size: 1.6rem;
+  font-size: clamp(0.8rem, 3.2vw, 1.6rem);
   padding-left: 1.2rem;
   border-radius: 1rem;
-
 }
 
 .perfil .container .card-perfil .wrapper-status {
   display: flex;
   gap: 3.4rem;
-  
 }
 
-.perfil .container .card-perfil .wrapper-status .status{
+.perfil .container .card-perfil .wrapper-status .status {
   font-size: 1.6rem;
   color: var(--fs2);
   display: flex;
   flex-direction: column;
   gap: 1rem;
   align-items: center;
-
 }
 
-.perfil .container .card-perfil .wrapper-status .status .icons-status{
+.perfil .container .card-perfil .wrapper-status .status .icons-status {
   color: var(--icon01);
 }
-.perfil .container .card-perfil .wrapper-status .status .icons-status span{
+.perfil .container .card-perfil .wrapper-status .status .icons-status span {
   color: var(--fs1);
   padding-left: 0.3rem;
 }
 
-.perfil .container .card-perfil .wrapper-status .status .icons-status.azul{
+.perfil .container .card-perfil .wrapper-status .status .icons-status.azul {
   color: var(--icon02);
 }
 
-.perfil .container .card-perfil .wrapper-status .status .icons-status.rosa{
+.perfil .container .card-perfil .wrapper-status .status .icons-status.rosa {
   color: var(--hover);
 }
 
-.perfil .container .card-perfil .info-perfil{
+.perfil .container .card-perfil .info-perfil {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
 }
 
-.perfil .container .card-perfil .info-perfil li{
+.perfil .container .card-perfil .info-perfil li {
   font-size: 1.6rem;
   color: var(--fs1);
 }
 
-.perfil .container .card-perfil .info-perfil li span{
+.perfil .container .card-perfil .info-perfil li span {
   color: var(--fs2);
 }
 
-/*Vou deixar aqui o css feito por mim - Helena */
-
 .border-destaque-perfil {
-  border: 1px solid var(--hover);
+  border: 0.1rem solid var(--hover);
   border-radius: 3.8rem;
-  padding: 5px 16px;
-  gap: 10px;
+  padding: 0.5rem 1.6rem;
+  gap: 1rem;
 }
-/* .text-colored {
-  color: var(--text-colored);
-} 
-Mexer aqui, pois está dando conflito no span dentro de outras propriedades de classes aqui no css
-*/
 
+.friends-comunity .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
 
+.friends-comunity .container .card-friends-comunity {
+  width: 28rem;
+  height: 41.1rem;
+  border-radius: 1.6rem;
+  background-color: var(--light);
+  display: flex;
+  flex-direction: column;
+  padding: 2.4rem;
+}
 
+.friends-comunity .container .card-friends-comunity h5 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--fs2);
+  padding-bottom: 2.4rem;
+}
+
+.friends-comunity .container .card-friends-comunity h5 span {
+  color: var(--fs2);
+}
+
+.friends-comunity .container .card-friends-comunity h5 span:hover {
+  color: var(--hover);
+  cursor: pointer;
+}
+.friends-comunity
+  .container
+  .card-friends-comunity
+  .profile-friends-comunity
+  ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.friends-comunity
+  .container
+  .card-friends-comunity
+  .profile-friends-comunity
+  ul
+  li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.friends-comunity
+  .container
+  .card-friends-comunity
+  .profile-friends-comunity
+  ul
+  li
+  img {
+  width: 5.6rem;
+  height: 5.6rem;
+}
+
+.friends-comunity
+  .container
+  .card-friends-comunity
+  .profile-friends-comunity
+  ul
+  li
+  p {
+  font-size: 1.4rem;
+  color: var(--fs2);
+}
+
+footer{
+  font-size: clamp(0.8rem, 3.2vw, 1.6rem);
+  background-color: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+footer a:hover{
+  color: var(--hover);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  
+}

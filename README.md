@@ -22,7 +22,7 @@ Projeto realizado com o objetivo de clonar a tela de perfil do orkut e também c
 <img src="src/img/designer-desktop-e-responsivo.gif" alt="Gif exibindo o desktop e versão mobile do site">    
 
 
-## 👩‍💻 Dev
+## 👩‍💻 Dev's
 <table align="center">
   <tr>
     <td align="center">
