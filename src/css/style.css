@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
 
 body {
   min-height: 100vh;
@@ -327,7 +327,7 @@ body {
   color: var(--fs2);
 }
 
-footer{
+footer {
   font-size: clamp(0.8rem, 3.2vw, 1.6rem);
   background-color: var(--bg);
   display: flex;
@@ -336,8 +336,7 @@ footer{
   padding: 2rem;
 }
 
-footer a:hover{
+footer a:hover {
   color: var(--hover);
   cursor: pointer;
-  
 }

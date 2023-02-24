@@ -1,49 +1,48 @@
-@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
 
-body{
-    font-family:'SF Pro Display', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+body {
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
 }
 
-#bg-orkut { 
-    background-color: #d9e6f7;
-    
+#bg-orkut {
+  background-color: #d9e6f7;
 }
 
-.text-normal { 
-    color: black;
+.text-normal {
+  color: black;
 }
-.text-colored { 
-    color: #ED2590;
+.text-colored {
+  color: #ed2590;
 }
 
 .card-img-overlay {
-    top: auto;
+  top: auto;
 }
 
-.color-checkbox { 
-    background-color: #ED2590;
+.color-checkbox {
+  background-color: #ed2590;
 }
 
-.btn-entrar { 
-    background-color: #ED2590;
-    border-color: #ED2590;
-    color: #fff;
+.btn-entrar {
+  background-color: #ed2590;
+  border-color: #ed2590;
+  color: #fff;
 }
-.btn-entrar:hover { 
-    background-color: #fff;
-    border-color: #ED2590;
-    color: #ED2590;
+.btn-entrar:hover {
+  background-color: #fff;
+  border-color: #ed2590;
+  color: #ed2590;
 }
-.btn-criar-conta { 
-    background-color:  #EFF3F8;
-    border-color: #ED2590;
-    color: #ED2590;
+.btn-criar-conta {
+  background-color: #eff3f8;
+  border-color: #ed2590;
+  color: #ed2590;
 }
-.btn-criar-conta:hover { 
-    background-color:  #EFF3F8;
-    border-color: #ED2590;
-    color: #ED2590;
+.btn-criar-conta:hover {
+  background-color: #eff3f8;
+  border-color: #ed2590;
+  color: #ed2590;
 }

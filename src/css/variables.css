@@ -4,8 +4,7 @@
   --fs2: #4b4b4b;
   --light: #fdfeff;
   --bg: #d9e6f7;
-  --icon01: #FACF41;
-  --icon02:#26CAFF;
-  --text-colored: #ed2590; /*Criei essa variável para poder ver se resolve o lance de uma cor estar sobressaindo a outra. Qualquer coisa, só apagar*/
-  
+  --icon01: #facf41;
+  --icon02: #26caff;
+  --text-colored: #fa2e9b;
 }

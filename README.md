@@ -3,7 +3,7 @@
 
 
 
-## Descrição
+## ⌨ Descrição
 Projeto realizado com o objetivo de clonar a tela de perfil do orkut e também criar uma página de login, utilizando as hardskills apresentadas abaixo.
 
 
@@ -15,11 +15,15 @@ Projeto realizado com o objetivo de clonar a tela de perfil do orkut e também c
 - Design responsivo
     
 
-## Inspiração Figma
+## 💡 Inspiração Figma
+
+>Figma: <a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=173746%3A3595&t=q8FS2CcBsMxVC631-0">Desafio Codilândia
 
 
 ## 🖱️ A página
-<img src="src/img/designer-desktop-e-responsivo.gif" alt="Gif exibindo o desktop e versão mobile do site">    
+<img src="src/images/desktop-mobile.gif" alt="Gif exibindo o desktop e versão mobile do site">    
+
+> Acesse a página online: <a target= "_blank">https://interface-orkut-brown.vercel.app/</a>
 
 
 ## 👩‍💻 Dev's
